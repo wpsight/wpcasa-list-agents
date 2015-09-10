@@ -1,0 +1,61 @@
+/* WPSight List Agents
+================================================== */
+
+.wpsight-list-agent {
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.wpsight-list-agent-image {
+	float: left;
+	margin: 0 30px 20px 0;
+	width: auto;
+}
+
+@media (max-width: 980px) {
+
+	.wpsight-list-agent-image {
+		float: none;
+		margin-right: 0;
+		text-align: center;
+	}
+
+}
+
+.wpsight-list-agent-info {
+	overflow: hidden;
+}
+
+.wpsight-list-agent-name,
+.wpsight-list-agent-description,
+.wpsight-list-agent-archive {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.wpsight-list-agent-name {
+	font-weight: bold;
+}
+
+.wpsight-list-agent-phone {
+	display: block;
+	font-weight: normal;
+}
+
+.wpsight-list-agent-links {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+@media (max-width: 980px) {
+	
+	.wpsight-list-agent-links {
+		margin-top: -10px;
+		margin-bottom: 10px;
+		position: relative;
+		top: auto;
+		right: auto;
+	}
+
+}
