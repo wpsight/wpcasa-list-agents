@@ -103,7 +103,7 @@ class WPSight_List_Agents {
 	 * @since 1.0.0
 	 */
 	public function frontend_scripts() {
-		wp_enqueue_style( 'wpsight-list-agents', WPSIGHT_LIST_AGENTS_PLUGIN_URL . '/assets/css/frontend.css' );
+		wp_enqueue_style( 'wpsight-list-agents', WPSIGHT_LIST_AGENTS_PLUGIN_URL . '/assets/css/wpsight-list-agents.css' );
 	}
 	
 }
