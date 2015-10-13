@@ -1,0 +1,22 @@
+{
+  "name": "wpcasa-list-agents",
+  "version": "1.0.0",
+  "description": "Display a list of agents using a shortocde.",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpsight/wpcasa-list-agents"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "WPSight",
+  "bugs": {
+    "url": "https://github.com/wpsight/wpcasa-list-agents/issues"
+  },
+  "homepage": "http://wpcasa.com/",
+  "devDependencies": {
+    "grunt-contrib-compress": "^0.13.0",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}

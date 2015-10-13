@@ -46,7 +46,7 @@ class WPSight_List_Agents {
 		define( 'WPSIGHT_LIST_AGENTS_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
 		
 		// Include functions
-		include( 'wpsight-list-agents-functions.php' );
+		include( 'wpcasa-list-agents-functions.php' );
 		
 		// Include shortcode
 		include( 'includes/class-wpsight-list-agents-shortcode.php' );
