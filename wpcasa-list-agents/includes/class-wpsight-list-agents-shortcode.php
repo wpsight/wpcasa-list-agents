@@ -3,28 +3,28 @@
 if ( ! defined( 'ABSPATH' ) )
 	exit;
 
+/**
+ * WPSight_List_Agents_Shortcode class
+ */
 class WPSight_List_Agents_Shortcode {
 
 	/**
-	 * __construct()
-	 *
-	 * @access public
+	 *	Constructor
 	 */
 	public function __construct() {		
 		add_shortcode( 'wpsight_list_agents', array( $this, 'shortcode_list_agents' ) );
 	}
 	
 	/**
-	 * shortcode_list_agents()
-	 *
-	 * Display list of agents.
-	 *
-	 * @param array $atts Shortcode attributes
-	 * @uses wp_kses_allowed_html()
-	 *
-	 * @return string $output Entire shortcode output
-	 *
-	 * @since 1.0.0
+	 *	shortcode_list_agents()
+	 *	
+	 *	Display list of agents.
+	 *	
+	 *	@param	array	$atts	Shortcode attributes
+	 *	@uses	wp_kses_allowed_html()
+	 *	@return string	$output	Entire shortcode output
+	 *	
+	 *	@since 1.0.0
 	 */
 	public function shortcode_list_agents( $atts ) {
 		

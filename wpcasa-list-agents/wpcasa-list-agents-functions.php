@@ -1,17 +1,16 @@
 <?php
 /**
- * wpsight_get_list_agents()
- *
- * Echo formatted list of agents
- * with the corresponding templates.
- *
- * @param array $args Array of arguments for WP_User_Query()
- * @uses wpsight_get_list_agents()
- * @uses wpsight_get_template()
- *
- * @since 1.0.0
+ *	wpsight_get_list_agents()
+ *	
+ *	Echo formatted list of agents
+ *	with the corresponding templates.
+ *	
+ *	@param	array	$args	Array of arguments for WP_User_Query()
+ *	@uses 	wpsight_get_list_agents()
+ *	@uses	wpsight_get_template()
+ *	
+ *	@since 1.0.0
  */
-
 function wpsight_list_agents( $args = array() ) {
 	
 	// Get user query
@@ -37,21 +36,20 @@ function wpsight_list_agents( $args = array() ) {
 }
 
 /**
- * wpsight_get_list_agents()
- *
- * Get list of agents without the ones with the
- * exclude option on the profile page activated.
- *
- * @param array $args Array of arguments for WP_User_Query()
- * @return object WP_User_Query()
- *
- * @since 1.0.0
+ *	wpsight_get_list_agents()
+ *	
+ *	Get list of agents without the ones with the
+ *	exclude option on the profile page activated.
+ *	
+ *	@param	array	$args	Array of arguments for WP_User_Query()
+ *	@uses	get_query_var()
+ *	@return	object	WP_User_Query()
+ *	
+ *	@since 1.0.0
  */
-
 function wpsight_get_list_agents( $args = array() ) {
 	
-	// Get agents to be excluded
-	
+	// Get agents to be excluded	
 	$user_query_exclude = new WP_User_Query( array( 'meta_key' => 'agent_exclude', 'meta_value' => '1' ) );
 	
 	$exclude = array();
