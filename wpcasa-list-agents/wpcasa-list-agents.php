@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WPCasa List Agents
-Plugin URI: http://wpcasa.com/downloads/wpcasa-list-agents
+Plugin URI: https://wpcasa.com/downloads/wpcasa-list-agents
 Description: Display a list of agents on one page using a shortocde.
 Version: 1.0.0
 Author: WPSight
@@ -109,7 +109,17 @@ class WPSight_List_Agents {
 	 *	@since 1.0.0
 	 */
 	public function frontend_scripts() {
-		wp_enqueue_style( 'wpsight-list-agents', WPSIGHT_LIST_AGENTS_PLUGIN_URL . '/assets/css/wpsight-list-agents.css' );
+		
+		// Only on front end
+		
+		if( is_admin() )
+			return;
+		
+		// Script debugging?
+		$suffix = SCRIPT_DEBUG ? '' : '.min';
+
+		wp_enqueue_style( 'wpsight-list-agents', WPSIGHT_LIST_AGENTS_PLUGIN_URL . '/assets/css/wpsight-list-agents' . $suffix . '.css' );
+
 	}
 	
 }

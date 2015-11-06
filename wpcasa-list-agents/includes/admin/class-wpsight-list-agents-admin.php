@@ -118,7 +118,7 @@ class WPSight_List_Agents_Admin {
 		$key = wpsight_underscores( WPSIGHT_LIST_AGENTS_DOMAIN );
 	
 		// Setup the updater
-		$edd_updater = new EDD_SL_Plugin_Updater( WPSIGHT_SHOP_URL, WPSIGHT_LIST_AGENTS_PLUGIN_DIR . '/' . WPSIGHT_LIST_AGENTS_DOMAIN . '.php', array(
+		$edd_updater = new EDD_SL_Plugin_Updater( WPSIGHT_SHOP_URL, WPSIGHT_LIST_AGENTS_PLUGIN_DIR . '/wpcasa-list-agents.php', array(
 				'version' 	=> WPSIGHT_LIST_AGENTS_VERSION,
 				'license' 	=> isset( $licenses[ $key ] ) ? trim( $licenses[ $key ] ) : false,
 				'item_name' => WPSIGHT_LIST_AGENTS_NAME,
