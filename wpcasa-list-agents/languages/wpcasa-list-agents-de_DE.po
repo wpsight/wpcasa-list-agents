@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WPCasa List Agents\n"
+"POT-Creation-Date: 2015-11-10 14:23+0100\n"
+"PO-Revision-Date: 2015-11-10 14:25+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpcasa-list-agents.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-wpsight-list-agents-admin.php:48
+msgid "Agent Lists"
+msgstr "Agentenlisten"
+
+#: includes/admin/class-wpsight-list-agents-admin.php:50
+msgid "Hide this user from agent lists"
+msgstr "Diesen Nutzer von Agentenlisten ausschließen"
+
+#: includes/admin/class-wpsight-list-agents-admin.php:92
+#, php-format
+msgid "For premium support and seamless updates for %s please activate your license."
+msgstr "Für Premium-Support und automatische Updates für %s bitte einen gültigen Lizenzschlüssel eingeben."
+
+#: templates/list-agent-no.php:8
+msgid "No agents were found."
+msgstr "Es wurden keine Agenten gefunden."
+
+#: templates/list-agent.php:47
+msgid "Website"
+msgstr "Website"
+
+#: templates/list-agent.php:51
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/list-agent.php:55
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/list-agent.php:68
+msgid "My Listings"
+msgstr "Meine Anzeigen"
+
+#. Plugin Name of the plugin/theme
+msgid "WPCasa List Agents"
+msgstr "WPCasa List Agents"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpcasa.com/downloads/wpcasa-list-agents"
+msgstr "https://wpcasa.com/downloads/wpcasa-list-agents"
+
+#. Description of the plugin/theme
+msgid "Display a list of agents on one page using a shortocde."
+msgstr "Eine Liste aller Agenten per Shortcode auf einer Seite anzeigen."
+
+#. Author of the plugin/theme
+msgid "WPSight"
+msgstr "WPSight"
+
+#. Author URI of the plugin/theme
+msgid "http://wpsight.com"
+msgstr "http://wpsight.com"
