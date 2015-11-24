@@ -18,12 +18,6 @@ class WPSight_List_Agents_Admin {
 		
 		add_action( 'personal_options_update', array( $this, 'profile_agent_exclude_save' ) );
 		add_action( 'edit_user_profile_update', array( $this, 'profile_agent_exclude_save' ) );
-		
-		// Add addon license to licenses page
-		add_filter( 'wpsight_licenses', array( $this, 'license' ) );
-		
-		// Add plugin updater
-		add_action( 'admin_init', array( $this, 'update' ), 0 );
 
 	}
 	
@@ -73,58 +67,6 @@ class WPSight_List_Agents_Admin {
 		$_POST['agent_exclude'] = isset( $_POST['agent_exclude'] ) ? $_POST['agent_exclude'] : false;
 	
 	    update_user_meta( $user_id, 'agent_exclude', $_POST['agent_exclude'] );
-	
-	}
-	
-	/**
-	 *	license()
-	 *	
-	 *	Add addon license to licenses page
-	 *	
-	 *	@return	array	$options_licenses
-	 *	
-	 *	@since 1.0.0
-	 */
-	public static function license( $licenses ) {
-		
-		$licenses['list_agents'] = array(
-			'name' => WPSIGHT_LIST_AGENTS_NAME,
-			'desc' => sprintf( __( 'For premium support and seamless updates for %s please activate your license.', 'wpcasa-list-agents' ), WPSIGHT_LIST_AGENTS_NAME ),
-			'id'   => wpsight_underscores( WPSIGHT_LIST_AGENTS_DOMAIN )
-		);
-		
-		return $licenses;
-	
-	}
-	
-	/**
-	 *	update()
-	 *	
-	 *	Set up EDD plugin updater.
-	 *	
-	 *	@uses	class_exists()
-	 *	@uses	get_option()
-	 *	@uses	wpsight_underscores()
-	 *	
-	 *	@since 1.0.0
-	 */
-	function update() {
-		
-		if( ! class_exists( 'EDD_SL_Plugin_Updater' ) )
-			return;
-
-		// Get license option
-		$licenses = get_option( 'wpsight_licenses' );		
-		$key = wpsight_underscores( WPSIGHT_LIST_AGENTS_DOMAIN );
-	
-		// Setup the updater
-		$edd_updater = new EDD_SL_Plugin_Updater( WPSIGHT_SHOP_URL, WPSIGHT_LIST_AGENTS_PLUGIN_DIR . '/wpcasa-list-agents.php', array(
-				'version' 	=> WPSIGHT_LIST_AGENTS_VERSION,
-				'license' 	=> isset( $licenses[ $key ] ) ? trim( $licenses[ $key ] ) : false,
-				'item_name' => WPSIGHT_LIST_AGENTS_NAME,
-				'author' 	=> WPSIGHT_AUTHOR
-			)
-		);
 	
 	}
 
