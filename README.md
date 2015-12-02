@@ -8,10 +8,6 @@ The WPCasa List Agents add-on is an easy way to display all the agents you want 
 ## Demo
 Please feel free to visit our [demo site](http://demo.wpcasa.com/list-agents) where you can test the features of this add-on.
 
-## Screenshots
-
-TODO screenshots
-
 ## Support
 
 For help and documentation please feel free to visit our [support center](https://wpcasa.com/support) and our [knowledge base](http://docs.wpsight.com/article/wpcasa-advanced-search/).
