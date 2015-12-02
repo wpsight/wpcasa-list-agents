@@ -1,5 +1,5 @@
 === WPCasa List Agents ===
-Contributors: wpsight, simonrimkus
+Contributors: wpsight, jancbeck, simonrimkus
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZRR56U2VTPZAQ
 Tags: real estate, realestate, agent, agents, agency, list, listing, listings, property, properites, wpcasa
 Requires at least: 4.0
@@ -12,13 +12,15 @@ Display a list of WPCasa agents on a page using a shortcode.
 
 == Description ==
 
-WPCasa is a WordPress solution that provides an intuitive way to manage property listings and create first-class real estate websites.
+The WPCasa List Agents add-on is an easy way to display all the agents you want to be included on one single page. The agents are displayed with an information card including links to their listings and social profiles.
 
 > Please notice that this plugin is an add-on for [WPCasa](https://wordpress.org/plugins/wpcasa/) and will NOT work without the core plugin.
 
+WPCasa is a WordPress solution that provides an intuitive way to manage property listings and create first-class real estate websites.
+
 * Website: [wpcasa.com](https://wpcasa.com)
 * Demo: [demo.wpcasa.com](http://demo.wpcasa.com)
-* Documentation: [docs.wpcasa.com](http://docs.wpcasa.com)
+* Documentation: [docs.wpcasa.com](http://docs.wpsight.com)
 
 == Installation ==
 
@@ -41,8 +43,14 @@ No, this is an add-on plugin for the WPCasa real estate framework and will not w
 == Screenshots ==
 
 1. Agents list on a static page
+2. Agent profile settings
 
 == Changelog ==
+
+= 1.0.0 =
+* Initial release
+
+== Upgrade Notice ==
 
 = 1.0.0 =
 * Initial release
