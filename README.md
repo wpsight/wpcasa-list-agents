@@ -10,4 +10,4 @@ Please feel free to visit our [demo site](http://demo.wpcasa.com/list-agents) wh
 
 ## Support
 
-For help and documentation please feel free to visit our [support center](https://wpcasa.com/support) and our [knowledge base](http://docs.wpsight.com/article/wpcasa-advanced-search/).
+For help and documentation please feel free to visit our [support center](https://wpcasa.com/support) and our [knowledge base](http://docs.wpsight.com/article/wpcasa-list-agents/).
