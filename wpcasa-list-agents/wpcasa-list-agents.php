@@ -37,12 +37,6 @@ class WPSight_List_Agents {
 
 		if ( ! defined( 'WPSIGHT_DOMAIN' ) )
 			define( 'WPSIGHT_DOMAIN', 'wpcasa' );
-		
-		if ( ! defined( 'WPSIGHT_SHOP_URL' ) )
-			define( 'WPSIGHT_SHOP_URL', 'http://wpsight.com/wpcasa' );
-
-		if ( ! defined( 'WPSIGHT_AUTHOR' ) )
-			define( 'WPSIGHT_AUTHOR', 'WPSight' );
 
 		define( 'WPSIGHT_LIST_AGENTS_NAME', 'WPCasa List Agents' );
 		define( 'WPSIGHT_LIST_AGENTS_DOMAIN', 'wpcasa-list-agents' );
