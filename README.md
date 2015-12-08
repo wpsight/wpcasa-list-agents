@@ -6,7 +6,7 @@ The WPCasa List Agents add-on is an easy way to display all the agents you want 
 **Please Notice!** This is an extension plugin and only works in combination with the [WPCasa Real Estate WordPress](https://github.com/wpsight/wpcasa) plugin.
 
 ## Demo
-Please feel free to visit our [demo site](http://demo.wpcasa.com/list-agents) where you can test the features of this add-on.
+Please feel free to visit our [demo site](http://demo.wpcasa.com/list-agents) where you can test this add-on.
 
 ## Support
 
