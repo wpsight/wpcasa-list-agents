@@ -6,7 +6,7 @@
  * Version:				1.1.0
  * Author:				WPSight
  * Author URI:			https://wpcasa.com
- * Requires at least: 	4.0
+ * Requires at least: 	6.2
  * Requires Plugins:  	wpcasa
  * Tested up to: 		6.9
  * Text Domain: 		wpcasa-list-agents
