@@ -10,5 +10,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <div class="wpsight-list-agent-section">	
-	<?php echo esc_html_e( 'No agents were found.', 'wpcasa-list-agents' ); ?>
+	<?php esc_html_e( 'No agents were found.', 'wpcasa-list-agents' ); ?>
 </div><!-- .wpsight-list-agent-section -->

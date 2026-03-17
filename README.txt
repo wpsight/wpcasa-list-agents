@@ -1,7 +1,7 @@
 === WPCasa List Agents ===
 Contributors: wpsight, jancbeck, simonrimkus
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZRR56U2VTPZAQ
-Tags: realestate, agent, agents, agency, list
+Tags: real estate, realestate, agent, agents, agency, list, listing, listings, property, properites, wpcasa
 Requires at least: 4.0
 Tested up to: 6.9
 Stable tag: 1.0.0

@@ -41,7 +41,7 @@ class WPSight_List_Agents_Admin {
 	        <tr>
 	            <th><label for="agent_exclude"><?php echo esc_html_e( 'Agent Lists', 'wpcasa-list-agents' ); ?></label></th>
 	            <td>
-	                <input type="checkbox" value="1" name="agent_exclude" id="agent_exclude" style="margin-right:5px" <?php checked( get_the_author_meta( 'agent_exclude', $user->ID ), 1 ); ?>> <?php echo esc_html_e( 'Hide this user from agent lists', 'wpcasa-list-agents' ); ?>
+	                <input type="checkbox" value="1" name="agent_exclude" id="agent_exclude" style="margin-right:5px" <?php checked( get_the_author_meta( 'agent_exclude', $user->ID ), 1 ); ?>> <?php esc_html_e( 'Hide this user from agent lists', 'wpcasa-list-agents' ); ?>
 	            </td>
 	        </tr>
 	    </table><?php
