@@ -49,15 +49,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	        	<div class="wpsight-list-agent-links">
 	        	
 	        		<?php if( wpsight_get_agent_website( $user->ID ) ) : ?>
-	        		<a href="<?php wpsight_agent_website( $user->ID ); ?>" class="agent-website" title="<?php echo esc_attr( wpsight_get_agent_website( $user->ID ) ); ?>" itemprop="url" target="_blank" rel="nofollow"><?php echo esc_html_e( 'Website', 'wpcasa-list-agents' ); ?></a>
+	        		<a href="<?php wpsight_agent_website( $user->ID ); ?>" class="agent-website" title="<?php echo esc_attr( wpsight_get_agent_website( $user->ID ) ); ?>" itemprop="url" target="_blank" rel="nofollow"><?php esc_html_e( 'Website', 'wpcasa-list-agents' ); ?></a>
 	        		<?php endif; ?>
 	        		
 	        		<?php if( wpsight_get_agent_twitter( $user->ID ) ) : ?>
-	        		<a href="<?php wpsight_agent_twitter( $user->ID, 'url' ); ?>" class="agent-twitter" title="@<?php echo esc_attr( wpsight_get_agent_twitter( $user->ID ) ); ?>" target="_blank" rel="nofollow"><?php echo esc_html_e( 'Twitter', 'wpcasa-list-agents' ); ?></a>
+	        		<a href="<?php wpsight_agent_twitter( $user->ID, 'url' ); ?>" class="agent-twitter" title="@<?php echo esc_attr( wpsight_get_agent_twitter( $user->ID ) ); ?>" target="_blank" rel="nofollow"><?php esc_html_e( 'Twitter', 'wpcasa-list-agents' ); ?></a>
 	        		<?php endif; ?>
 	        		
 	        		<?php if( wpsight_get_agent_facebook( $user->ID ) ) : ?>
-	        		<a href="<?php wpsight_agent_facebook( $user->ID, 'url' ); ?>" class="agent-facebook" title="<?php echo esc_attr( wpsight_get_agent_facebook( $user->ID ) ); ?>" target="_blank" rel="nofollow"><?php echo esc_html_e( 'Facebook', 'wpcasa-list-agents' ); ?></a>
+	        		<a href="<?php wpsight_agent_facebook( $user->ID, 'url' ); ?>" class="agent-facebook" title="<?php echo esc_attr( wpsight_get_agent_facebook( $user->ID ) ); ?>" target="_blank" rel="nofollow"><?php esc_html_e( 'Facebook', 'wpcasa-list-agents' ); ?></a>
 	        		<?php endif; ?>
 				
 	        	</div>
@@ -70,7 +70,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	        
 	        <?php if( wpsight_get_agent_archive( $user->ID ) && $args['show_archive'] !== false ) : ?>	        
 	        <div class="wpsight-list-agent-archive">
-	        	<a href="<?php wpsight_agent_archive( $user->ID ); ?>"><?php echo esc_html_e( 'My Listings', 'wpcasa-list-agents' ); ?></a>
+	        	<a href="<?php wpsight_agent_archive( $user->ID ); ?>"><?php esc_html_e( 'My Listings', 'wpcasa-list-agents' ); ?></a>
 	        </div>
 	        <?php endif; ?>
 	    
