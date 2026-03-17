@@ -1,16 +1,15 @@
 <?php
 /**
  * Plugin Name:			WPCasa List Agents
- * Plugin URI:			https://wpcasa.com/downloads/wpcasa-list-agents
- * Description:			Display a list of agents on one page using a shortocde.
- * Version:				1.0.0
+ * Plugin URI:			https://wordpress.org/plugins/wpcasa-list-agents
+ * Description:			Display a list of agents on one page using a shortcode.
+ * Version:				1.1.0
  * Author:				WPSight
- * Author URI:			http://wpsight.com
+ * Author URI:			https://wpcasa.com
  * Requires at least: 	4.0
  * Requires Plugins:  	wpcasa
  * Tested up to: 		6.9
  * Text Domain: 		wpcasa-list-agents
- * Domain Path:			/languages
  * License:				GPL v2 or later
  * License URI:			http://www.gnu.org/licenses/gpl-2.0.txt
  */
@@ -40,7 +39,7 @@ class WPSight_List_Agents {
 
 		define( 'WPSIGHT_LIST_AGENTS_NAME', 'WPCasa List Agents' );
 		define( 'WPSIGHT_LIST_AGENTS_DOMAIN', 'wpcasa-list-agents' );
-		define( 'WPSIGHT_LIST_AGENTS_VERSION', '1.0.0' );
+		define( 'WPSIGHT_LIST_AGENTS_VERSION', '1.1.0' );
 		define( 'WPSIGHT_LIST_AGENTS_PLUGIN_DIR', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 		define( 'WPSIGHT_LIST_AGENTS_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
 		
