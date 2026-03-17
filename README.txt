@@ -40,7 +40,7 @@ If you prefer to install the plugin manually, you need to download it to your lo
 
 == Frequently Asked Questions ==
 
-= Will this plugin work without WPCasa?
+= Will this plugin work without WPCasa? =
 
 No, this is an add-on plugin for the WPCasa real estate framework and will not work without the core plugin.
 
@@ -60,7 +60,7 @@ This is a list of contributors to WPCasa List Agents.
 Many thanks to all of them for contributing and making WPCasa even better.
 
 [Mrinal Haque](https://profiles.wordpress.org/mrinal013/)
-[Kybernetik Services](https://www.kybernetik-services.com/?utm_source=wordpress_org&utm_medium=plugin&utm_campaign=wpcasa&utm_content=readme)
+[Kybernetik Services](https://www.kybernetik-services.com/?utm_source=wordpress_org&utm_medium=plugin&utm_campaign=wpcasa-list-agents&utm_content=readme)
 [jancbeck](https://profiles.wordpress.org/jancbeck/)
 [Simon Rimkus](https://github.com/simonrimkus)
 
