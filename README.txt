@@ -1,5 +1,5 @@
 === WPCasa List Agents ===
-Contributors: wpsight, jancbeck, simonrimkus
+Contributors: wpsight
 Plugin URI: https://wordpress.org/plugins/wpcasa-list-agent/
 Donate link: https://www.paypal.com/donate/?hosted_button_id=SYJNVSP2BKTQ4
 Tags: real estate, realestate, agent, listing, wpcasa
@@ -44,15 +44,30 @@ If you prefer to install the plugin manually, you need to download it to your lo
 
 No, this is an add-on plugin for the WPCasa real estate framework and will not work without the core plugin.
 
+= Which shortcodes are included? =
+
+* `[wpsight_list_agents]`: Display list of agents
+
+For more information about shortcodes please [read our documentation](https://docs.wpcasa.com/article/shortcodes/).
+
 == Screenshots ==
 
 1. Agents list on a static page
 2. Agent profile settings
 
+== Contributors ==
+This is a list of contributors to WPCasa List Agents.
+Many thanks to all of them for contributing and making WPCasa even better.
+
+[Mrinal Haque](https://profiles.wordpress.org/mrinal013/)
+[Kybernetik Services](https://www.kybernetik-services.com/?utm_source=wordpress_org&utm_medium=plugin&utm_campaign=wpcasa&utm_content=readme)
+[jancbeck](https://profiles.wordpress.org/jancbeck/)
+[Simon Rimkus](https://github.com/simonrimkus)
+
 == Changelog ==
 
 = 1.1.0 =
-* Fixed Plugin Check Plugin issues for plugin review on wordpress-org
+* Fixed Plugin Check Plugin issues for plugin review on wordpress.org
 
 = 1.0.0 =
 * Initial release
