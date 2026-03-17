@@ -57,8 +57,6 @@ class WPSight_List_Agents {
 		}
 
 		// Actions
-		
-		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'frontend_scripts' ) );
 
 	}
@@ -80,20 +78,6 @@ class WPSight_List_Agents {
 
 		return $wpsight->list_agents;
 
-	}
-
-	/**
-	 *	load_plugin_textdomain()
-	 *	
-	 *	Set up localization for this plugin
-	 *	loading the text domain.
-	 *	
-	 *	@uses	load_plugin_textdomain()
-	 *
-	 *	@since 1.0.0
-	 */
-	public function load_plugin_textdomain() {
-		load_plugin_textdomain( 'wpsight-list-agents', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 
 	/**
