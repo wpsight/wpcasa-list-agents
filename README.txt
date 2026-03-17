@@ -1,8 +1,10 @@
 === WPCasa List Agents ===
 Contributors: wpsight, jancbeck, simonrimkus
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZRR56U2VTPZAQ
-Tags: real estate, realestate, agent, agents, agency, list, listing, listings, property, properites, wpcasa
-Requires at least: 4.0
+Plugin URI: https://wordpress.org/plugins/wpcasa-list-agent/
+Donate link: https://www.paypal.com/donate/?hosted_button_id=SYJNVSP2BKTQ4
+Tags: real estate, realestate, agent, listing, wpcasa
+Requires at least: 6.2
+Requires PHP: 7.2
 Tested up to: 6.9
 Stable tag: 1.1.0
 License: GPLv2 or later
@@ -19,7 +21,10 @@ The WPCasa List Agents add-on is an easy way to display all the agents you want 
 WPCasa is a WordPress solution that provides an intuitive way to manage property listings and create first-class real estate websites.
 
 * Website: [wpcasa.com](https://wpcasa.com)
-* Documentation: [docs.wpcasa.com](https://docs.wpcasa.com)
+* Documentation: [docs.wpcasa.com](https://docs.wpcasa.com/)
+* Add-Ons: [wpcasa.com/add-ons](https://wpcasa.com/add-ons)
+* Themes: [wpcasa.com/themes](https://wpcasa.com/themes)
+* GitHub: [github.com/wpsight/wpcasa-list-agents](https://github.com/wpsight/wpcasa-list-agents)
 
 == Installation ==
 
@@ -45,6 +50,9 @@ No, this is an add-on plugin for the WPCasa real estate framework and will not w
 2. Agent profile settings
 
 == Changelog ==
+
+= 1.1.0 =
+* Fixed Plugin Check Plugin issues for plugin review on wordpress-org
 
 = 1.0.0 =
 * Initial release
