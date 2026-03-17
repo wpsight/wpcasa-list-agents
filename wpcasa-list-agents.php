@@ -1,21 +1,24 @@
 <?php
-/*
-Plugin Name: WPCasa List Agents
-Plugin URI: https://wpcasa.com/downloads/wpcasa-list-agents
-Description: Display a list of agents on one page using a shortocde.
-Version: 1.0.0
-Author: WPSight
-Author URI: http://wpsight.com
-Requires at least: 4.0
-Requires Plugins:  wpcasa
-Tested up to: 4.3.1
-Text Domain: wpcasa-list-agents
-Domain Path: /languages
-*/
+/**
+ * Plugin Name:			WPCasa List Agents
+ * Plugin URI:			https://wpcasa.com/downloads/wpcasa-list-agents
+ * Description:			Display a list of agents on one page using a shortocde.
+ * Version:				1.0.0
+ * Author:				WPSight
+ * Author URI:			http://wpsight.com
+ * Requires at least: 	4.0
+ * Requires Plugins:  	wpcasa
+ * Tested up to: 		6.9
+ * Text Domain: 		wpcasa-list-agents
+ * Domain Path:			/languages
+ * License:				GPL v2 or later
+ * License URI:			http://www.gnu.org/licenses/gpl-2.0.txt
+ */
 
 // Exit if accessed directly
-if ( ! defined( 'ABSPATH' ) )
-	exit;
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 
 /**
  * WPSight_List_Agents class

@@ -39,9 +39,9 @@ class WPSight_List_Agents_Admin {
 	
 	    <table class="form-table">
 	        <tr>
-	            <th><label for="agent_exclude"><?php _e( 'Agent Lists', 'wpcasa-list-agents' ); ?></label></th>
+	            <th><label for="agent_exclude"><?php echo esc_html_e( 'Agent Lists', 'wpcasa-list-agents' ); ?></label></th>
 	            <td>
-	                <input type="checkbox" value="1" name="agent_exclude" id="agent_exclude" style="margin-right:5px" <?php checked( get_the_author_meta( 'agent_exclude', $user->ID ), 1 ); ?>> <?php _e( 'Hide this user from agent lists', 'wpcasa-list-agents' ); ?>
+	                <input type="checkbox" value="1" name="agent_exclude" id="agent_exclude" style="margin-right:5px" <?php checked( get_the_author_meta( 'agent_exclude', $user->ID ), 1 ); ?>> <?php echo esc_html_e( 'Hide this user from agent lists', 'wpcasa-list-agents' ); ?>
 	            </td>
 	        </tr>
 	    </table><?php
@@ -60,13 +60,17 @@ class WPSight_List_Agents_Admin {
 	 *	@since 1.0.0
 	 */
 	public function profile_agent_exclude_save( $user_id ) {
+
+		if( ! isset( $_POST[ '_wpnonce' ] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST[ '_wpnonce' ] ) ), 'update-user_' . $user_id ) ) {
+			return;
+		}
 	
 	    if ( ! current_user_can( 'listing_admin' ) && ! current_user_can( 'administrator' ) )
 	        return false;
 	        
-		$_POST['agent_exclude'] = isset( $_POST['agent_exclude'] ) ? $_POST['agent_exclude'] : false;
+		$_POST['agent_exclude']  = isset( $_POST['agent_exclude'] ) ?  sanitize_text_field( wp_unslash( $_POST['agent_exclude'] ) ) : false;
 	
-	    update_user_meta( $user_id, 'agent_exclude', $_POST['agent_exclude'] );
+	    update_user_meta( $user_id, 'agent_exclude', sanitize_text_field( wp_unslash( $_POST['agent_exclude'] ) ) );
 	
 	}
 

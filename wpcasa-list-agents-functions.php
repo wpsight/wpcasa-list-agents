@@ -47,6 +47,11 @@ function wpsight_list_agents( $args = array() ) {
  *	
  *	@since 1.0.0
  */
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 function wpsight_get_list_agents( $args = array() ) {
 	
 	// Get agents to be excluded	
