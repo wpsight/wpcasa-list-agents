@@ -69,7 +69,7 @@ class WPSight_List_Agents {
 	 *
 	 *	@since 1.0.0
 	 */
-	public static function init( $wpsight ) {
+	public static function init( $wpsight ): object {
 		
 		if ( ! isset( $wpsight->list_agents ) )
 			$wpsight->list_agents = new self();
@@ -89,17 +89,17 @@ class WPSight_List_Agents {
 	 *
 	 *	@since 1.0.0
 	 */
-	public function frontend_scripts() {
+	public function frontend_scripts() : void {
 		
 		// Only on front end
-		
-		if( is_admin() )
+		if( is_admin() ) {
 			return;
-		
+		}
+
 		// Script debugging?
 		$suffix = SCRIPT_DEBUG ? '' : '.min';
 
-		wp_enqueue_style( 'wpsight-list-agents', WPSIGHT_LIST_AGENTS_PLUGIN_URL . '/assets/css/wpsight-list-agents' . $suffix . '.css' );
+		wp_enqueue_style( 'wpsight-list-agents', WPSIGHT_LIST_AGENTS_PLUGIN_URL . '/assets/css/wpsight-list-agents' . $suffix . '.css', array(), WPSIGHT_LIST_AGENTS_VERSION );
 
 	}
 	
