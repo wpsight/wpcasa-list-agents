@@ -3,12 +3,11 @@
  * Plugin Name:			WPCasa List Agents
  * Plugin URI:			https://wordpress.org/plugins/wpcasa-list-agents
  * Description:			Display a list of agents on one page using a shortcode.
- * Version:				1.1.0
+ * Version:				1.1.1
  * Author:				WPSight
  * Author URI:			https://wpcasa.com
  * Requires at least: 	6.2
  * Requires Plugins:  	wpcasa
- * Tested up to: 		6.9
  * Text Domain: 		wpcasa-list-agents
  * License:				GPL v2 or later
  * License URI:			http://www.gnu.org/licenses/gpl-2.0.txt
@@ -39,7 +38,7 @@ class WPSight_List_Agents {
 
 		define( 'WPSIGHT_LIST_AGENTS_NAME', 'WPCasa List Agents' );
 		define( 'WPSIGHT_LIST_AGENTS_DOMAIN', 'wpcasa-list-agents' );
-		define( 'WPSIGHT_LIST_AGENTS_VERSION', '1.1.0' );
+		define( 'WPSIGHT_LIST_AGENTS_VERSION', '1.1.1' );
 		define( 'WPSIGHT_LIST_AGENTS_PLUGIN_DIR', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 		define( 'WPSIGHT_LIST_AGENTS_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
 		

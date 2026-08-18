@@ -6,7 +6,7 @@ Tags: real estate, realestate, agent, listing, wpcasa
 Requires at least: 6.2
 Requires PHP: 7.2
 Tested up to: 7.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,9 @@ Many thanks to all of them for contributing and making WPCasa even better.
 [Simon Rimkus](https://github.com/simonrimkus)
 
 == Changelog ==
+
+= 1.1.1 =
+* Improved plugin header to prevent wrong "tested up to" information
 
 = 1.1.0 =
 * Fixed Plugin Check Plugin issues for plugin review on wordpress.org
